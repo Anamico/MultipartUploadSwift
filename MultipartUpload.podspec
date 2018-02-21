@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MultipartUpload'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MultipartUpload.'
+  s.summary          = 'MultipartUpload is designed to simplify large file background upload for iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  
+  			Multipart upload handles the complexity in cutting up large files, queuing and background uploading them for you.
+
+			It requires a sibling implementation on the server end to accept the multipart upload and stitch it together.
+
+			For example: https://github.com/Anamico/S3StreamThru
+			Which is a node express middleware that handles streaming the upload directly to an S3 bucket server side before the
+			completed file URL on S3 is passed on to the express route as a completed upload for processing by the server.
                        DESC
 
-  s.homepage         = 'https://github.com/macinspak/MultipartUpload'
+  s.homepage         = 'https://github.com/anamico/MultipartUploadSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'macinspak' => 'roo@roo.emu.id.au' }
-  s.source           = { :git => 'https://github.com/macinspak/MultipartUpload.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/anamico/MultipartUploadSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
