@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F7420B8C647031827E3C2F5 /* Pods_MultipartUpload_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEA3908F51D28E732EEA385 /* Pods_MultipartUpload_Example.framework */; };
+		49F3824A203D077200882EDC /* test_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49F38249203D077200882EDC /* test_image.jpg */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		2DE3D2D8DF0230CF0C87A51D /* Pods-MultipartUpload_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipartUpload_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipartUpload_Example/Pods-MultipartUpload_Example.release.xcconfig"; sourceTree = "<group>"; };
 		33FD05FD729A5A99A13EE4B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		49F38249203D077200882EDC /* test_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_image.jpg; sourceTree = SOURCE_ROOT; };
 		607FACD01AFB9204008FA782 /* MultipartUpload_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipartUpload_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				49F38249203D077200882EDC /* test_image.jpg */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for MultipartUpload";
@@ -251,6 +254,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				49F3824A203D077200882EDC /* test_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

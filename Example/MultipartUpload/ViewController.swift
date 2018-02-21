@@ -9,10 +9,10 @@
 import UIKit
 import MultipartUpload
 
-//let endpoint = "http://nextvetApi-staging-env.ap-southeast-2.elasticbeanstalk.com/api/v1/attachment/stream"
-let endpoint = "http://localhost:3000/upload"
-//let endpoint = "http://nextvetapi-staging-env.ap-southeast-2.elasticbeanstalk.com:9000/stream/"
+// NOTE: This needs to be your server side implementing the Multipart Upload using the same protocol:
+// This example is using https://github.com/Anamico/S3StreamThru
 
+let endpoint = "http://localhost:3000/upload"
 
 class ViewController: UIViewController {
     
@@ -26,11 +26,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func upload() {
-        let fileUrl = Bundle.main.url(forResource: "Docker", withExtension: "zip")!
+        let fileUrl = Bundle.main.url(forResource: "test_image", withExtension: "jpg")!
         
         MultipartUpload(
             fileUrl: fileUrl,
-            withNameFile: "Docker.zip",
+            withNameFile: "test_image.jpg",
             toUrl: URL(string: endpoint)!).start()
     }
     
