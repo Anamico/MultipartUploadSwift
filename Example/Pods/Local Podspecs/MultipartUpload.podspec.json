@@ -1,0 +1,22 @@
+{
+  "name": "MultipartUpload",
+  "version": "0.1.0",
+  "summary": "A short description of MultipartUpload.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/macinspak/MultipartUpload",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "macinspak": "roo@roo.emu.id.au"
+  },
+  "source": {
+    "git": "https://github.com/macinspak/MultipartUpload.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MultipartUpload/Classes/**/*"
+}
